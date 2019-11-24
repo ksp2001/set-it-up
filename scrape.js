@@ -4,6 +4,7 @@ const fs = require('fs');
 const brain = require('brain.js');
 const express = require('express');
 const app = express();
+app.set('view engine', 'ejs');
 
 let lang = "ruby"
 app.use(express.urlencoded({extended: true}))
@@ -51,8 +52,7 @@ request(link_string, (error, response, html)=> {
 network.train (training_data, {iterations:300});
 
 const output = network.run(lang);
-console.log(`Company: ${output}`);
-res.sendFile('/Users/aestaeric/Desktop/testing-web-scraping/public/result.html');
+res.render('final.ejs', {output:output});
 fs.unlinkSync('./data.json');
   });
 
