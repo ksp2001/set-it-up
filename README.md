@@ -7,11 +7,14 @@
 3. The app uses node, brain.js (for the machine learning part), cheerio.js (for scraping indeed) and stores and reads data as a json file.
 
 ## HOW TO USE THE PROGRAM
+_in order to run it locally, follow these steps —_
 1. Create a folder on your computer and open it in the Terminal (Command Line) :: [Quick Intro To CLI](https://launchschool.com/books/command_line/read/files_directories_executables#clicore)
 2. 'git init' into it so that it forms a local repository. Then do git clone _'clone with https' url found at the top_
 3. Then, _cd_ into the project folder in your terminal and type 'node scrape.js'.
 4. Lastly, you want to open your browser (make sure you do step 3 before this) and type http://localhost:3000/ to see our project in action!
 5. Last warning, make sure once you're done running it, go to terminal and hit Ctrl+C to exit out of the app.
+
+_if you want to see the program in action online, follow the heroku app link at the top_
 
 ## Inspiration :
 I've been wanting to dabble in machine learning for a long time but it intimidated me. The app I haven't isn't high level, but it's my first foot into the ML world and I couldn't be happier! I also added in web parsing, which is something I'd been wanting to explore — really, this idea exists because of the things I really wanted to learn but kept putting off due to intimidation.
