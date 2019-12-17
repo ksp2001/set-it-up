@@ -5,7 +5,6 @@
 1. How _Set It Up_ works is simple — you tell it what is your programming language of choice. It'll then scrape indeed to see what companies are currently looking to hire developers using the language you specified, and you give you back the best fit company.
 2. The program determines the best company using machine learning.
 3. The app uses node, brain.js (for the machine learning part), cheerio.js (for scraping indeed) and stores and reads data as a json file.
-4. In progress : adding a frontend
 
 ## HOW TO USE THE PROGRAM
 1. Create a folder on your computer and open it in the Terminal (Command Line) :: [Quick Intro To CLI](https://launchschool.com/books/command_line/read/files_directories_executables#clicore)
